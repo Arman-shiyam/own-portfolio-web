@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Own Portfolio</title>
+
+    <!-- daisyui -->
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.3/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- tailwind css -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+
+
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/56ba7299c7.js" crossorigin="anonymous"></script>
+
+    <!-- Manrope Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <style>
+        .font-primary {
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+
+</head>
+
+<body class="">
+    <section>
+        <header class="max-w-[1370px] mx-auto  bg-color">
+            <!-- navbar section -->
+            <nav class=" ">
+                <div class="justify-around navbar backdrop-blur  shadow rounded-md lg:max-w-[1370px] py-8 bg-bl fixed z-40 ">
+                    <div class="">
+                        <div class="dropdown ">
+                            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path class="text-[#13131899]" ath stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+                                </svg>
+                            </div>
+                            <ul tabindex="0"
+                                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-white rounded-box w-52 text-black ">
+                                <li><a href="#home" class="text-cyan-400">Home</a></li>
+                                <li><a href="#about" class="text-green-500">About</a></li>
+                                <li><a href="#services" class="text-green-500">Services</a></li>
+                                <li><a href="#work" class="text-green-500">Portfolio</a></li>
+                                <li><a href="#contact" class="text-green-500">Contact</a></li>
+                            </ul>
+                        </div>
+                        <a class=" text-2xl lg:text-4xl font-bold"><span class="text-cyan-400">A</span>rman<span
+                                class="text-cyan-400">.</span></a>
+                    </div>
+                    <div class="navbar-center hidden lg:flex ">
+                        <ul class="menu menu-horizontal px-1 text-black ">
+                            <li><a href="#home" class="text-cyan-400">Home</a></li>
+                            <li><a href="#about" class="text-green-500">About</a></li>
+                            <li><a href="#services" class="text-green-500">Services</a></li>
+                            <li><a href="#work" class="text-green-500">Portfolio</a></li>
+                            <li><a href="#contact" class="text-green-500">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="lg:gap-6">
+                        <button class="btn btn-ghost  lg:block btn-circle ">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                            </svg>
+                        </button>
+
+                    </div>
+                </div>
+            </nav>
+        </header>
+    </section>
+    <!-- Home section -->
+    <section id="home">
+        <div class="hero min-w-full p-52 bg-white ">
+            <div class="hero flex flex-col gap-64 justify-center lg:flex-row-reverse">
+                <img src="image/IMG-20231026-WA0014.jpg" class="max-w-sm rounded-lg shadow-2xl" />
+                <div>
+                    <h1 class="text-xl font-semibold">GP/WD Designer</h1>
+                    <p class="py-4 text-2xl font-bold">Hi, I'm Arman Hasan</p>
+                    <p class="py-4 text-3xl font-bold">From Bangladesh</p>
+                    <button class="btn btn-primary font-bold text-white text-xl">Know Me</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About section -->
+    <main class="lg:max-w-[1370px] mx-auto px-4">
+        <section id="about">
+            <div class="hero min-h-screen bg-white p-44">
+                <div class="hero-content flex-col justify-between lg:flex-row gap-10">
+                    <img src="image/2.jpg" class="lg:max-w-[600px] rounded-lg shadow-2xl" />
+                    <div class="flex flex-col">
+                        <div>
+                            <h1 class="text-5xl font-bold">About Me!</h1>
+                            <p class="py-6 font-bold">Graphic Design Software:</p>
+
+                            <p class="">Graphic designes often use software like Adobe Photoshop, Illustrator, or
+                                InDesign
+                                to
+                                create visual content such as logos, illustrations, brochures, and advertisements.</p>
+                        </div>
+                        <div>
+                            <p class="py-6 font-bold">Web Design Software:</p>
+
+                            <p class="">Web designes use tools like Adobe Dreamweaver, Sketch, Figma, or Adobe XD to
+                                design
+                                and
+                                prototype websites, user interfaces, and digital products.</p>
+                        </div>
+                        <button class="btn btn-primary w-32 mt-4 font-bold text-white text-xl">Hire Me</button>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- Services section -->
+        <section id="services" class="py-52">
+            <h3 class="font-bold text-5xl mb-10">My Services:</h3>
+            <div class="lg:flex justify-center px-36 gap-10 ">
+
+                <div class="card w-96 border-slate-500 border-2 shadow-xl hover:bg-purple-500 mb-4">
+                    <img class="max-w-16 mx-8 mt-8" src="image//code-solid.svg" alt="">
+                    <div class="card-body">
+                        <h2 class="card-title">Web Design</h2>
+                        <p>My web design services typically offer custom website design solutions based on your
+                            brand
+                            identity,
+                            target audience, and business objectives. </p>
+                        <div class="card-actions justify-start">
+                            <button class="btn btn-primary w-32 mt-4 font-bold text-white text-base">Learn
+                                More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card w-96 border-slate-500 border-2 shadow-xl hover:bg-lime-500 mb-4">
+                    <img class="max-w-16 mx-8 mt-8" src="image//code-solid.svg" alt="">
+                    <div class="card-body">
+                        <h2 class="card-title">Graphic Design</h2>
+                        <p>I can create unique and memorable logos that represent a brand's identity and values.
+                            This
+                            includes conceptualization, typography, color selection, and graphical elements. </p>
+                        <div class="card-actions justify-start">
+                            <button class="btn btn-primary w-32 mt-4 font-bold text-white text-base">Learn
+                                More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card w-96 border-slate-500 border-2 shadow-xl hover:bg-lime-500 mb-4">
+                    <img class="max-w-16 mx-8 mt-8" src="image//code-solid.svg" alt="">
+                    <div class="card-body">
+                        <h2 class="card-title">UI/UX Design</h2>
+                        <p>I will creating intuitive and visually appealing user interfaces (UI) for websites,
+                            mobile
+                            apps, and software applications. User experience (UX) design focuses on enhancing user
+                            satisfaction by improving usability and accessibility. </p>
+                        <div class="card-actions justify-start">
+                            <button class="btn btn-primary w-32 mt-4 font-bold text-white text-base">Learn
+                                More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- My Work -->
+        <div id="#work" class="py-52 ">
+            <h3 class="font-bold text-5xl mb-10">My Work:</h3>
+                <div class="lg:flex mx-auto px-36 gap-10 justify-center ">
+                    <img class="max-w-sm rounded-lg mb-4 hover:scale-125 transition duration-500 cursor-pointer" src="image/3.png" alt="">
+                    <img class="max-w-sm rounded-lg mb-4 hover:scale-125 transition duration-500 cursor-pointer" src="image/4.png" alt="">
+                    <img class="max-w-sm rounded-lg hover:scale-125 transition duration-500 cursor-pointer" src="image/5.jpg" alt="">
+                </div>
+                <div class="card-actions justify-center">
+                    <button class="btn btn-primary w-36 mt-6 font-bold text-white text-base">See More</button>
+                </div>
+        </div>
+        <!-- Contact Section -->
+        <section id="contact" class="p-3">
+            <div>
+                <h3 class="font-bold text-5xl  mt-40 mb-10">Contact:</h3>
+            </div>
+            <div class="lg:flex gap-16  mb-40">
+
+                <div class="border p-5 flex flex-col items-center gap-5 rounded-lg">
+                    <div class="w-[287px] lg:w-[374px] lg:h-[216px] bg-[#BCED6D1A] rounded p-8">
+                        <img src="Images/phone.png" alt="">
+                        <p class="text-[#13131899] text-[16px] mt-6">Phone Number : </p>
+                        <h3 class="text-lg font-bold mt-2">0171088335</h3>
+                    </div>
+                    <div class="w-[287px] lg:w-[374px] lg:h-[216px] bg-[#FDDD5F1A] rounded p-8">
+                        <img src="Images/mail.png" alt="">
+                        <p class="text-[#13131899] text-[16px] mt-6">Email : </p>
+                        <h3 class="text-lg font-bold mt-2">arman111hasan@gmail.com</h3>
+                    </div>
+                    <div class="w-[287px] lg:w-[374px] lg:h-[216px] bg-[#629CF31A] rounded p-8">
+                        <img src="Images/map.png" alt="">
+                        <p class="text-[#13131899] text-[16px] mt-6">Location :
+                        </p>
+                        <h3 class="text-lg font-bold mt-2">Modhubag,Dhaka</h3>
+                    </div>
+                </div>
+                <div>
+                    <div class="grid lg:grid-cols-2 grid-cols-1 gap-6 ">
+                        <div>
+                            <span class="label-text text-xl font-bold">Your Name</span>
+                            <input type="text" placeholder="Enter your full name"
+                                class="mt-4 input w-full lg:max-w-xs text-[#13131899] bg-[#13131808]" />
+                        </div>
+                        <div>
+                            <span class="label-text text-xl font-bold">Your Email</span>
+                            <input type="text" placeholder="Enter your email"
+                                class="mt-4 input w-full lg:max-w-xs text-[#13131899] bg-[#13131808]" />
+                        </div>
+                        <div>
+                            <span class="label-text text-xl font-bold">Subject</span><br>
+                            <input type="text" placeholder="Enter your subject"
+                                class="mt-4 input w-full lg:max-w-xs text-[#13131899] bg-[#13131808]" />
+                        </div>
+                        
+                        <div>
+                            <span class="label-text text-xl font-bold">Phone Number</span>
+                            <input type="text" placeholder="Enter your phone number"
+                                class="mt-4 input w-full lg:max-w-xs text-[#13131899] bg-[#13131808]" />
+                        </div>
+                        <div>
+                            <span class="label-text text-xl font-bold">Message</span>
+                            <div>
+                                <input type="text" placeholder="Write your message"
+                                    class="mt-6 input w-full md:w-[700px] lg:h-[370px] text-[#13131899] bg-[#13131808]" />
+                            </div>
+                            <button class="btn btn-primary w-36 mt-10 font-bold text-white text-base">Send
+                                Message</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+    </main>
+    <section>
+        <footer class="footer lg:flex justify-around p-10 text-xl bg-black text-neutral-content mt-36">
+            <aside>
+                <i class="fa-solid fa-address-card"></i>
+                <p>Know About Me.<br>I am available for your work.</p>
+            </aside>
+            <nav>
+                <h6 class="footer-title">Social</h6>
+                <div class="grid grid-flow-col gap-4">
+                    <a href="https://www.facebook.com/profile.php?id=100078461949580"><i
+                            class="fa-brands fa-facebook"></i></a>
+                    <a href="https://github.com/ArmanW2024"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/armanshiyam/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </nav>
+        </footer>
+    </section>
+
+</body>
+
+</html>
